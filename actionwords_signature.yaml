@@ -1,0 +1,202 @@
+---
+- name: two scenarios
+  uid: f4bacbca-f24f-4cc2-be2f-409cca0855f3
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the scenarios using step "p1"response"p2" should be:'
+  uid: 3c47b007-0cf4-4266-8f6b-2ffeff86143d
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob creates a new step "p1"day"p2"
+  uid: 742ca450-dad2-404d-b204-83fa8a56062a
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: changes the two scenarios as
+  uid: bf08e1aa-0889-4216-862a-9ccff507cf75
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob has only the step "p1"day"p2" to maintain instead of these two
+  uid: 1db8ecdc-ec92-46a6-8736-431aa5579cef
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the datatable
+  uid: 58f71b49-10c7-4ed1-ab96-ce577d919859
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a folder "p1" with the scenarios:'
+  uid: 36e43f4c-2456-4b08-bf21-797fae42c59e
+  parameters:
+  - name: p1
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Open Browser
+  uid: bc0f5837-1074-46c6-9aa5-56cd0164ccad
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: if the browser is chrome browser
+  uid: dfcbc0be-f304-47c0-87fb-22abb8c6d181
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enter the url as "p1"
+  uid: 7c283784-3f56-4949-acec-7952f9f30b3e
+  parameters:
+  - name: p1
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: browser is chrome browser
+  uid: 806cf8b4-386d-4ff0-83b7-0c0512205afd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enter the username as "p1" and password as "p2"
+  uid: 63f08955-d802-4c49-a990-a9eea0deae09
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: check workspaces login page is displayed
+  uid: 50c5d7aa-7023-4d40-b4d0-5ac1ef29c102
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click on the login button
+  uid: 8b88abf4-a75e-4d9e-9bec-24a2afb3014c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe login success message is displayed
+  uid: e69c3781-aead-4b22-bb80-13e279c5fe89
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe invalid username message is displayed
+  uid: 365e9cf4-1872-42f3-99ef-dd68193b9b68
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: verify user able to landed into dashboard page
+  uid: e766fbb1-c1ba-43af-9635-c035dfd0b72f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: verify user able to view the logout option
+  uid: b5df2465-0bf6-4e8d-9ab2-bbcf1867905a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click on the logout button
+  uid: be1eb71c-fee8-4147-9c8f-63e47636e03e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: verify user able to view the logout success message
+  uid: 35d479ca-84f5-49be-b34d-5f5e46c30aa9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: workspaces login page is displayed
+  uid: b2cadb18-5156-4496-a343-e5864fca6a74
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Close Browser
+  uid: 6844691e-72cf-432b-a387-f22c2095bbaa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe invalid password message is displayed
+  uid: e9d94859-5d34-4f25-9c42-371aaa38f86f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe invalid username and invalid password message is displayed
+  uid: afb32196-ec37-481c-8d19-b5eba3480f0f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: username field is visible
+  uid: 5889bd3c-85af-4532-a6f6-f154a49e2606
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: password field is visible
+  uid: 0a324a11-11da-4659-aba2-898f271bbc37
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: close Chrome Browser
+  uid: a80dd708-8bfd-411d-99a8-208d85d91b1d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe invalid credentials login message is displayed
+  uid: 941cd187-11c7-46c5-8b2e-45b0bfb3944e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe empty field validation appears in the password field
+  uid: 6781c562-dc16-455f-9e3a-da684e646fd9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe empty field validation appears in the username field
+  uid: 1d3f4724-a4c1-4dfb-b4fc-1f13a582eb23
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: observe empty field validation appears in the username and password field
+  uid: d6ef3298-dab9-4c26-a815-8103573768ca
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click on settings
+  uid: 5217d67b-156a-4827-be39-53c53d5c3439
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: navigate to security
+  uid: 1e813ff7-74cf-46b8-8ea8-7ef86b225ee7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: change the session time as 10 sec
+  uid: 33ffc8c7-5d40-476b-8204-007d7bbc88a3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click on Save
+  uid: 25582c88-1088-44cf-b3ec-8f8b206a63fb
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: keep idle for 11 sec
+  uid: ea59b27e-8257-41ef-83b5-250f107af7af
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Observe session timeout message is displayed
+  uid: 1e80369e-ed69-494a-8bca-6a8057634f90
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: change the session time as 36000000 sec
+  uid: c9362d74-187b-4093-bc80-9883b11f3ecf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Configuration page is displayed
+  uid: 2c0c4d15-41e8-4967-9ab5-ba753bfa7a9a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Set "p1" as "p2"
+  uid: da46fac9-43b5-473b-833f-7e3fbf55fb6d
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: system should prompt for force change password page
+  uid: b6e5db89-0604-4781-95e4-80c2a6f19a06
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Enter new password as "p1" and Re Enter new password as "p2"
+  uid: 81db84ea-a3b2-449d-b9c8-7d6747e6414c
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click on submit
+  uid: c1ad500e-2232-4dc6-a088-36510942304a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Password should be changed successfully message should be displayed
+  uid: 7b381564-48ba-4e21-836a-54a29f9e7d8b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Open Chrome Browser
+  uid: 377adb94-80e8-4bf1-890a-a0f0c770de3f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
